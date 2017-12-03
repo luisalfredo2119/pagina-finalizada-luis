@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 15, 2017, 5:54:08 PM
+    Author     : 00140197
+*/
+ul li{
+    list-style-type: none;
+    display: inline;
+      font-size: 24px;
+      background: #3BAEEC;
+      padding:15px;
+      border-radius: 15px;
+ 
+
+ }
+ #cabecera{
+    text-align: center;
+    font-family: Calibri;
+    color: #3BAEEC; 
+ }
+ #menu{
+      text-align: center;
+ }
+ 
+ #cuerpo{
+     text-align: center;
+     font-family: Calibri;
+     font-size: 20px;
+ } 
+ #Logo{
+     text-align: inherit; 
+     text-align: center;
+     font-size: 39px;
+     background-color:#3BAEEC;
+ }
+     #pie{
+     
+     text-align: center;
+     background: #3BAEEC;
+     font-size: 15px;
+     color:#0B028C;  
+ }
+ form{
+     width: 800px;
+     margin: 0 auto;
+     border: 1px solid black;
+     border-radius: 10px;
+     padding: 1em;
+ }
+ 
+ #formulario h1 { 
+     
+      list-style-type: none;
+       text-align: center; 
+      display: inline;
+      font-size: 24px;
+      background: #3BAEEC;
+      padding:100px;
+      border-radius:20px;
+ 
+ 
+ }
+ 
+ 
+ #label{
+     display: inline-block;
+     width: 200px;
+     text-align: left;   
+     font-weight: bold;
+     font-size: 1.2em;
+ }
+ 
+ input,textarea{
+    width: 300px;
+    font: 1em cursive;
+    border: 1px solid black;
+ }
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+  
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width:900px;
+  margin: 0 auto;
+}
+ 
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+  border: 2px solid #777;
+}
+ 
+#cabecera { clear: both; }
+#menu { clear: both; }
+#lateral { float: left; width: 20%; }
+#contenido { float: right; width: 78%; }
+#contenido #principal { float: left; width: 78%; }
+#contenido #secundario { float: right; width: 20%; }
+#pie { clear: both; }
+ 
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo { float: left; }
+#cabecera #buscador { float: right; }
+ 
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; }
+ 
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img { width: 100px; float: left; }
+ 
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces   { float: left; }
+#pie .copyright { float: right; }
+ 
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que 
+   sean necesarios.
+   ================= */
+ 
+ 
+#cabecera,
+#menu,
+#lateral,
+#lateral #noticias,
+
+#lateral #publicidad,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+  padding: .5em;
+}
+ 
+#lateral {
+  padding: 0;
+ text-align: vertical;
+}
+ 
+#cabecera {
+  padding: 1em;
+}
+ 
+#menu {
+  margin-bottom: .5em;
+}
+ul li{
+    font-size:16px;
+    padding:5px;
+    font-weight:bold
+  
+}
+#contenido {
+  width: 77%;
+  padding: 0;
+}
+ 
+#contenido #principal {
+  width: 73%;
+}
+ 
+#pie {
+  padding: .5em 0;
+  margin-top: 1em;
+}
+ 
+#contenido #principal .articulo {
+  margin-bottom: 1em;
+}
+ 
+#contenido #principal .articulo img { 
+  margin: .5em;
+}
+ 
+#lateral #publicidad {
+  margin-top: 1em;
+  text-align: center;
+}
